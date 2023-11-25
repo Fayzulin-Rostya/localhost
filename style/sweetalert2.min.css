@@ -1,0 +1,42 @@
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #2c2c2c;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.swal2-popup {
+  font-family: "Arial", sans-serif;
+  box-shadow: 0 0 100px rgb(219, 55, 192);
+  /* стиль для уведомлений sweetalert2 */
+}
+
+button.swal2-confirm.swal2-styled:focus {
+  box-shadow: 0 0 10px rgb(219, 55, 192);
+}
+
+button.swal2-confirm.swal2-styled {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 500ms;
+  box-shadow: 0 0 10px rgb(219, 55, 192);
+}
+
+button.swal2-confirm.swal2-styled:hover {
+  background-color: #63005a9f;
+  box-shadow: 0 0 10px rgb(89, 22, 78);
+  transition: all 500ms;
+}
+
+.swal2-container {
+  box-shadow: 0 0 10px rgb(219, 55, 192);
+}
